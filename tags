@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CONSTANTS	constants.h	2;"	d
+DEFINE_BOX	defineBox.cc	2;"	d	file:
+DISPLAY	display.cc	3;"	d	file:
+DRAWBOX	drawBox.cc	2;"	d	file:
+DRAW_AXES	drawAxes.cc	3;"	d	file:
+GLOBALS	globals.h	2;"	d
+INIT	init.cc	3;"	d	file:
+MAIN	main.cc	2;"	d	file:
+OPENGL	opengl.h	2;"	d
+PROTOTYPES	prototypes.h	2;"	d
+RESHAPE	reshape.cc	2;"	d	file:
+STRUCTS	structs.h	3;"	d
+WINDOW_HEIGHT	constants.h	/^const int WINDOW_HEIGHT = 500;$/;"	v
+WINDOW_WIDTH	constants.h	/^const int WINDOW_WIDTH = 500;$/;"	v
+blue	structs.h	/^	float blue;$/;"	m	struct:colortype
+box	structs.h	/^typedef struct box {$/;"	s
+box	structs.h	/^} box;$/;"	t	typeref:struct:box
+color	structs.h	/^	colortype color;	$/;"	m	struct:box
+colortype	structs.h	/^typedef struct colortype {$/;"	s
+colortype	structs.h	/^} colortype;$/;"	t	typeref:struct:colortype
+defineBox	defineBox.cc	/^void defineBox( box *face )$/;"	f
+display	display.cc	/^void display(void)$/;"	f
+drawAxes	drawAxes.cc	/^void drawAxes(int length)$/;"	f
+drawBox	drawBox.cc	/^void drawBox( struct box *face )$/;"	f
+green	structs.h	/^	float green;$/;"	m	struct:colortype
+init	init.cc	/^void init(void) $/;"	f
+main	main.cc	/^int main(int argc, char** argv)$/;"	f
+point	structs.h	/^	vertex point[4];$/;"	m	struct:box
+red	structs.h	/^	float red;$/;"	m	struct:colortype
+reshape	reshape.cc	/^void reshape (int w, int h)$/;"	f
+vertex	structs.h	/^typedef struct vertex {$/;"	s
+vertex	structs.h	/^} vertex;$/;"	t	typeref:struct:vertex
+w	structs.h	/^        float w;$/;"	m	struct:vertex
+x	structs.h	/^        float x;$/;"	m	struct:vertex
+y	structs.h	/^        float y;$/;"	m	struct:vertex
+z	structs.h	/^        float z;$/;"	m	struct:vertex
